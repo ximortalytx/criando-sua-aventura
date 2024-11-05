@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oldenburg&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <title>Uma aventura nas férias</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-loja.webp" alt="">
+            <p>Durante suas férias de julho você decide procurar por experiências novas, então vai a uma loja muito estranha que vende mapas estranhos, e você sem saber o que fazer decide comprar um desses mapas</p>
+            <button class="btn-proximo" data-proximo="1">Mapa 1</button>
+            <button class="btn-proximo" data-proximo="2">Mapa 2</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/mapa-com-X.webp" alt="">
+            <p>você decide escolher o mapa 1, verificando mais de perto percebe que ele tem um “X” marcado. O que você faz agora ?</p>
+            <button class="btn-proximo" data-proximo="3">Seguir o “X” marcado no mapa e ver no que dá</button>
+            <button class="btn-proximo" data-proximo="4">Devolver o mapa de desistir da aventura</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="img/mapa-detalhado.webp" alt="">
+            <p>você decide comprar o mapa 2, e fica encantado com a quantidade de detalhes que ele possui, ele tem varios simbolos marcando locais importantes, mas algo o chama a atenção, esse mapa parece ser da própria cidade só que antigamente, o problema é que sua própria casa está identificada com um circulo. o que fazer agora ?</p>
+            <button class="btn-proximo" data-proximo="5">voltar para casa e procurar algo lá</button>
+            <button class="btn-proximo" data-proximo="6">continuar explorando a loja em busca de respostas</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="img/floresta.webp" alt="">
+            <p>seguindo o mapa você passa por uma floresta muito medonha mas continua seguindo em frente você chega no local do “X” mas não tem nada. o que fazer agora ?</p>
+            <button class="btn-proximo" data-proximo="7">Cavar o chão em busca de um super tesouro</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-casa.webp" alt="">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria encontrado.</p>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="img/mapa-de-casa.webp" alt="">
+            <p>na sua casa, você procura por todos os lugares e no seu porão você acha um mapa antigo da sua casa e percebe que ela ainda permanece do mesmo jeito, e tem a brilhante ideia de procurar no seu quintal.</p>
+            <button class="btn-proximo" data-proximo="7">Cavar o quintal em busca de respostas</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="img/cenario-loja.webp" alt="">
+            <p>você procura por toda a loja mas não acha NADA, até tenta falar com o velho atendente mas ele não responde.</p>
+            <button class="btn-proximo" data-proximo="5">Voltar para casa e procurar algo lá.</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <img src="img/mapa-fogo.jpeg" alt="">
+            <p>você cavou o chão e achou uma caixa com um mapa ainda mais estranho, pois esse tinha partes quimadas, ainda em brasa, você fica com medo pois isso é impossível, mas está determinado a resolver esse mistério. para onde você vai  agora ?</p>
+            <button class="btn-proximo" data-proximo="8">olhar o mapa minuciosamente</button>
+            <button class="btn-proximo" data-proximo="9">por ficar muito assustado você guarda tudo e tenta esquecer aquilo</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <img src="img/mapa-fogo.jpeg" alt="">
+            <p>você analisa minuciosamente em busca de respostas e percebe que uma nova marcação havia aparecido, essa marcação apontava novamente para aquela velha loja da qual havia comprado o mapa, então decide voltar lá e mostra o mapa em brasa ao velho atendente, que sorri e diz, “está pronto para uma verdadeira aventura ?”</p>
+            <button class="btn-proximo" data-proximo="11">aceitar a aventura</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <img src="img/caixa.webp" alt="">
+            <p>você tenta esquecer aquilo por anos mas nunca sai da sua cabeça, então você depois de anos decide pegar as coisas de novo e tentar resolver o mistéria</p>
+            <button class="btn-proximo" data-proximo="10">retomar a aventura</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <img src="img/mapa-fogo.jpeg" alt="">
+            <p>Retormando e vendo aquele mapa ainda em brasa mesmo depois de anos você o analisa minuciosamente em busca de respostas e percebe que uma nova marcação havia aparecido, essa marcação apontava novamente para aquela velha loja da qual havia comprado o mapa, então decide voltar lá e mostra o mapa em brasa ao velho atendente, que sorri e diz, “está pronto para uma verdadeira aventura ?”</p>
+            <button class="btn-proximo" data-proximo="11">aceitar a aventura</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-loja.webp" alt="">
+            <p>você aceita a aventura com o velho senhor, mas com um certo receio do idoso não aguentar, mas mal sabia o que estava por vir...  continua...</p>
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
